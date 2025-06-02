@@ -83,3 +83,17 @@ Guess 6: 42 → Correct!
    .If the guess is too low, print: "Try Again! You guessed too small."
    .If the guess is correct, print: "Congratulations!" and exit the loop.
 5. If the user runs out of chances, display the correct number and a message: "Better Luck Next Time!"
+
+## 📂 Files
+
+number_guessing_game.py - The main Python file for the game.
+
+## 💡 Features
+
+1.User-defined range for more flexibility.
+
+2.Input validation for better user experience (can be added).
+
+3.Randomized gameplay for replayability.
+
+4.Clear instructions and feedback on guesses.
