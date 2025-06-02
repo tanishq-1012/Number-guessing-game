@@ -97,3 +97,36 @@ number_guessing_game.py - The main Python file for the game.
 3.Randomized gameplay for replayability.
 
 4.Clear instructions and feedback on guesses.
+
+## Explanation
+
+This Python script implements a number guessing game using basic control structures. It uses random.randrange(100) to generate a target number between 0 and 99. The user is given 7 attempts to guess the number. A while loop handles repeated input, and conditional statements (if-elif) evaluate each guess—providing feedback on whether it's too high, too low, or correct. If the guess matches, the loop breaks; otherwise, the game ends after 7 tries, displaying the correct number.
+
+## 🚀 Getting Started
+
+**Prerequisites**
+
+Python 3.x installed on your machine
+
+**Running the Game**
+
+1. Clone this repository or download the .py file.
+
+2. Open a terminal and navigate to the directory.
+
+3. Run the game with:
+
+python number_guessing_game.py
+
+## 🛠️ Future Improvements
+
+1.Add input validation for non-integer inputs.
+
+2.Track and display previous guesses.
+
+3.Add difficulty levels (easy/medium/hard with different number of attempts).
+
+4.GUI version using tkinter or pygame.
+
+## 🙌 Author
+Tanishq Sharma
